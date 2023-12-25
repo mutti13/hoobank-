@@ -13,7 +13,7 @@ const Testimonials = () =>
 
       <div className="w-fill flex justify-between 
       items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-        <h1>
+        <h1 className={`${styles.heading2} `}>
           What people are <br className="sm:block hidden"/>saying about us
         </h1>
         
